@@ -1,30 +1,47 @@
-# HTML Hello
+<!--hide-->
+# Command Line Preview
+<!--endhide-->
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+This command line challenge is designed to help you become familiar with the bash/command line. The challenge goes over the most used commands every developer needs to know in order to succeed in real life.
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+> ❗ We strongly recommend reading [The Command Line lesson](https://4geeks.com/lesson/the-command-line-the-terminal) on the 4Geeks.com platform.
 
-## What to do next?
+💻 The challenge is built for computers using the Linux bash. Use Codespaces or Gitpod if you are running on Windows (instructions below). 
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+## 🌱 How to start this project
+
+### 👩‍🎓 Students and Teachers must follow this step:
+
+This project comes with the necessary files to start working immediately.
+
+We recommend opening this very same repository using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command. 
+
+This is the repository you need to open:
+
+```text
+https://github.com/breatheco-de/excercise-terminal-challenge.git
+```
+
+**👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
+
+> 💡 Important: Remember to save and upload your code to GitHub by creating a new repository, updating the remote (`git remote set-url origin <your new url>`), and uploading the code to your new repository using the `add`, `commit` and `push` commands from the git terminal.
+
+## Only teachers must follow this step:
+
+#### 1) Install the packages.
 
 ```bash
-$ pip3 install flask && python3 server.py
+$ npm install
 ```
 
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+#### 2) Run the presentation.
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
+```bash
+$ npm run start
 ```
 
-### Contributors
+## Start Playing!
 
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
+Follow the presentation for a better experience.
 
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+This and many other projects are built for students of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning)
